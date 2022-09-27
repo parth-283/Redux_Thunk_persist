@@ -11,6 +11,7 @@ function Counter() {
     <div className="App">
       <div>
         <h1>Counter</h1>
+
         <button onClick={() => dispatch(incNumber(1,data[0]+1))}>+</button>
         <lable className="fs-2">{data[0]}</lable>
         <button onClick={() => dispatch(decNumber(1,data[0]-1))}>-</button>
