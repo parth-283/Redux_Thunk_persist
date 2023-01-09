@@ -18,7 +18,7 @@ export const setIncrement = (num, data) => {
 export const decNumber = (num, count) => {
   return async (dispatch) => {
     // ajax()
-    const data = await getproduct(count);
+    const data = await getproduct(num, count);
     console.log(count, "DECREMENT");
     dispatch(setDecrement(num, data));
   };
